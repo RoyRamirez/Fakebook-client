@@ -1,0 +1,47 @@
+.insertar {
+  margin: 0 auto;
+  background-color: #FFF;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0,.2);
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnss {
+  border-top: 1px solid rgb(170, 170, 170);
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.publiText{
+  width: 330px;
+  background-color: rgb(241, 241, 241);
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 1px solid #dddfe2;
+  border-radius: 25px;
+}
+.insertInfo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 899px) {
+  .insertar {
+    width: 550px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .insertar {
+    width: 700px;
+  }
+}

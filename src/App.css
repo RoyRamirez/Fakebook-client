@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 65px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

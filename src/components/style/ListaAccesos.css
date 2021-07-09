@@ -1,0 +1,19 @@
+.listaAccesos {
+  background-color: #f0f2f5;
+  width: 280px;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  margin-top: 10px;
+  overflow: scroll;
+}
+
+.accTitulo {
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 1099px) {
+  .listaAccesos {
+    display: none;
+  }
+}

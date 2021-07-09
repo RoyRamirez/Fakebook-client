@@ -1,0 +1,54 @@
+.btn {
+  border: 1px solid;
+  border-radius: 6px;
+  font-size: 18px;
+  color: white;
+  padding: 12px;
+  width: 365px;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.btn-md {
+  width: 220px;
+}
+
+.btn-int{
+  font-size: 14px;
+  margin: 5px;
+  width: 200px;
+  border: none;
+  color: rgb(116, 116, 116);
+  background-color: white;
+  padding: 8px 0
+}
+
+.btn-int:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+.blue {
+  background-color: #1877f2;
+}
+.blue:hover {
+  background-color: #186cda;
+}
+.green {
+  background-color: #42b72a;
+}
+.green:hover {
+  background-color: #3daa27;
+}
+.gray {
+  margin-top: 5px;
+  margin-left: 15px;
+  color: black;
+  border: none;
+  background-color: #f0f2f5;
+}
+.gray:hover {
+  background-color: rgb(219, 219, 219);
+}
+.like {
+  color: #186cda;;
+}

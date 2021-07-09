@@ -1,0 +1,79 @@
+.login {
+  width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.titulo{
+  text-align: center;
+  width: 480px;
+  margin-bottom: 20px;
+}
+.logo{
+  color: #1877f2;
+  font-size: 62px;
+  margin-top: 35px ;
+  margin-bottom: 0;
+}
+.subtitulo{
+  font-size: 24px;
+  line-height: 28px;
+  color: #1c1e21;
+}
+.loginbox{
+  width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0,.2);
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 20px;
+  padding-bottom: 30px;
+  align-items: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  width: 330px;
+  font-size: 16px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  transition: .3s;
+}
+
+.olviPass{
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 20px;
+  width: 330px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dddfe2;
+}
+
+
+@media screen and (min-width: 900px){
+  .titulo {
+    text-align: left;
+  }
+  .login{
+    width: 920px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 150px 0;
+  }
+  .subtitulo {
+    font-size: 22px;
+  }
+  .loginbox {
+    margin: 0;
+  }
+}

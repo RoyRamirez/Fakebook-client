@@ -1,0 +1,60 @@
+.publicacion {
+  margin: 0 auto;
+  background-color: #FFF;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0,.2);
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.publiUsuario {
+  font-size: 14px;
+  padding: 0 0 0 10px;
+  margin-bottom: 0;
+}
+.fecha{
+  font-size: 12px;
+  padding-left: 10px;
+}
+.texto {
+  padding: 0 0 0 15px;
+}
+.interacciones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.interaccion {
+  font-size: 14px;
+  margin: 10px 10px;
+  color: rgb(116, 116, 116);
+}
+.btns {
+  border-top: 1px solid rgb(170, 170, 170);
+  border-bottom: 1px solid rgb(170, 170, 170);
+  margin: 0 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.publInfo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 899px) {
+  .publicacion {
+    width: 550px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .publicacion {
+    width: 700px;
+  }
+}

@@ -1,0 +1,14 @@
+.contactos {
+  background-color: #f0f2f5;
+  width: 280px;
+  height: 100vh;
+  right: 0;
+  position: fixed;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 899px) {
+  .contactos {
+    display: none;
+  }
+}
