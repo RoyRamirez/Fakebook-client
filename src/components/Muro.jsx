@@ -8,7 +8,7 @@ export const Muro = () => {
   const [publicaciones, setPublicaciones] = useState([]);
 
   useEffect(() => {
-    axios.get('/publicaciones')
+    axios.get('https://fake-pi.herokuapp.com/publicaciones')
     .then(response => {
       setPublicaciones(response.data);
     }).catch(error => {
@@ -21,7 +21,7 @@ export const Muro = () => {
       publicacion.likes += 1;
     else 
       publicacion.likes -= 1;
-    axios.put('/publicaciones', publicacion);
+    axios.put('https://fake-pi.herokuapp.com/publicaciones', publicacion);
   }
 
   return (

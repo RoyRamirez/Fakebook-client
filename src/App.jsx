@@ -17,7 +17,7 @@ export function App() {
 
   const login = (user) => {
     console.log(user);
-    axios.get('/users', {params: {email: user.email, password: user.password}})
+    axios.get('https://fake-pi.herokuapp.com/users', {params: {email: user.email, password: user.password}})
     .then(response => {
       setSesion({
         email: user.email,

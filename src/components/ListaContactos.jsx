@@ -7,7 +7,7 @@ export const ListaContactos = () => {
   const [contactos, setContactos] = useState([]);
   
   useEffect(() => {
-    axios.get('/contactos')
+    axios.get('https://fake-pi.herokuapp.com/contactos')
     .then(response => {
       setContactos(response.data);
     }).catch(error => {

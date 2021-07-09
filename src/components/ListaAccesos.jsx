@@ -9,14 +9,14 @@ export const ListaAccesos = () => {
   const [accesos, setAccesos] = useState([]);
 
   useEffect(() => {
-    axios.get("/categorias")
+    axios.get("https://fake-pi.herokuapp.com/categorias")
       .then(response => {
         setCategorias(response.data);
       }).catch (error => {
         console.log(error);
       });
 
-    axios.get("/accesos")
+    axios.get("https://fake-pi.herokuapp.com/accesos")
       .then(response =>{
         setAccesos(response.data);
       }).catch(error => {
