@@ -22,7 +22,7 @@ export const Login = ({ login }) => {
     <div className="login">
       <div className="titulo">
         <h1 className="logo">fakebook</h1>
-        <h2 className="subtitulo">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</h2>
+        <h2 className="subtitulo">Fakebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</h2>
       </div>
       <div className="loginbox">
         <form action="" className="form">
